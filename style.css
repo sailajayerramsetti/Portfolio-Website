@@ -1,0 +1,223 @@
+/* ---------------------------------
+   BASIC RESET
+--------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* ---------------------------------
+   BODY
+--------------------------------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ---------------------------------
+   HEADER
+--------------------------------- */
+header {
+  background-color: #007bff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+header button {
+  background: white;
+  color: #007bff;
+  border: none;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* ---------------------------------
+   ABOUT SECTION
+--------------------------------- */
+#About {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#About img {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 4px solid #007bff;
+}
+
+/* ---------------------------------
+   SKILLS SECTION
+--------------------------------- */
+#Skills {
+  background-color: #e9f1ff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#Skills h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#Skills ol {
+  list-style: none;
+  padding: 0;
+}
+
+#Skills li {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  margin: 10px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#Skills li:hover {
+  background-color: #0056b3;
+}
+
+/* ---------------------------------
+   PROJECTS SECTION
+--------------------------------- */
+#projects {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#projects h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#projects table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#projects th, #projects td {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+}
+
+#projects th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* ---------------------------------
+   CONTACT SECTION
+--------------------------------- */
+#Contact {
+  background-color: #e9f1ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#Contact h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Form styling */
+form {
+  background: white;
+  display: inline-block;
+  text-align: left;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+/* Form labels and inputs */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+form textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* Radio and checkbox styling */
+.gender-group, .interest-group {
+  margin: 10px 0;
+}
+
+.gender-group label,
+.interest-group label {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* ---------------------------------
+   FOOTER
+--------------------------------- */
+footer {
+  text-align: center;
+  background: #007bff;
+  color: white;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+html {
+  scroll-behavior: smooth;
+}
